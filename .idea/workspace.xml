@@ -9,6 +9,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +48,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConfigServer.executor": "Debug",
+    "Application.EurekaServer.executor": "Debug",
+    "Application.Ms-Customer.executor": "Debug",
+    "Application.Ms-Notification.executor": "Debug",
+    "Application.Ms-Order.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.notification [install].executor": "Run",
+    "Maven.notification [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/tsk-api__gateway",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot/services/notification/pom.xml",
+    "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot/services/gateway/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15629323",
     "project.structure.side.proportion": "0.2",
@@ -78,7 +90,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ms-Notification">
+  <component name="RunManager" selected="Application.ApiGateway">
+    <configuration name="ApiGateway" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.vendetta.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -146,10 +167,11 @@
       <item itemvalue="Application.ConfigServer" />
       <item itemvalue="Application.EurekaServer" />
       <item itemvalue="Application.Ms-Customer" />
-      <item itemvalue="Application.Ms-Product" />
+      <item itemvalue="Application.Ms-Notification" />
       <item itemvalue="Application.Ms-Order" />
       <item itemvalue="Application.Ms-Payment" />
-      <item itemvalue="Application.Ms-Notification" />
+      <item itemvalue="Application.Ms-Product" />
+      <item itemvalue="Application.ApiGateway" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
