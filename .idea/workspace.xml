@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="278f89cc-0ce7-41f1-9fde-f055c5b03717" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/vendetta/ecommerce/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/vendetta/ecommerce/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/vendetta/ecommerce/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/vendetta/ecommerce/order/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +29,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2mX0Cj4SFk2rL57CQNv6ivmbjwe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -51,22 +45,22 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/tsk-service__order",
+    "git-widget-placeholder": "feature/tsk-service__payment",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot/services/order/src/main/java/com/vendetta/ecommerce",
+    "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot/services/payment/pom.xml",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15629323",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vendetta.ecommerce.payment" />
+      <recent name="com.vendetta.ecommerce.notification" />
       <recent name="com.vendetta.ecommerce.orderline" />
       <recent name="com.vendetta.ecommerce.order" />
       <recent name="com.vendetta.ecommerce.kafka" />
-      <recent name="com.vendetta.ecommerce.product" />
-      <recent name="com.vendetta.ecommerce.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java\e-commerce-microservice-spring-boot\services\order\src\main\java\com\vendetta\ecommerce" />
@@ -83,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ms-Order">
+  <component name="RunManager" selected="Application.Ms-Payment">
     <configuration name="ConfigServer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,6 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ms-Payment" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.vendetta.ecommerce.PaymentApplication" />
+      <module name="payment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ms-Product" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -135,6 +138,7 @@
       <item itemvalue="Application.Ms-Customer" />
       <item itemvalue="Application.Ms-Product" />
       <item itemvalue="Application.Ms-Order" />
+      <item itemvalue="Application.Ms-Payment" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,5 +151,16 @@
       <updated>1727207488463</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
