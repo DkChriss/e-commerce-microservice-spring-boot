@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="278f89cc-0ce7-41f1-9fde-f055c5b03717" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/vendetta/ecommerce/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/vendetta/ecommerce/customer/CustomerController.java" afterDir="false" />
-    </list>
+    <list default="true" id="278f89cc-0ce7-41f1-9fde-f055c5b03717" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +238,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727207488463</updated>
-      <workItem from="1727309669844" duration="4263000" />
+      <workItem from="1727309669844" duration="5162000" />
     </task>
     <servers />
   </component>
