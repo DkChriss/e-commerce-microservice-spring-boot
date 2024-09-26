@@ -24,10 +24,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+=======
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DkChriss"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:DkChriss/e-commerce-microservice-spring-boot.git",
+    "accountId": "afdcf005-e39e-4bc4-8d71-4cd3adc2fd85"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -51,8 +70,28 @@
     "Application.Ms-Payment.executor": "Debug",
     "Application.Ms-Product.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.config-server [clean].executor": "Run",
+    "Maven.config-server [compile].executor": "Run",
+    "Maven.customer [clean].executor": "Run",
+    "Maven.customer [compile].executor": "Run",
+    "Maven.discovery [clean].executor": "Run",
+    "Maven.discovery [compile].executor": "Run",
+    "Maven.gateway [clean].executor": "Run",
+    "Maven.gateway [compile].executor": "Run",
+    "Maven.notification [clean].executor": "Run",
+    "Maven.notification [compile].executor": "Run",
     "Maven.notification [install].executor": "Run",
     "Maven.notification [validate].executor": "Run",
+    "Maven.order [clean].executor": "Run",
+    "Maven.order [compile].executor": "Run",
+    "Maven.payment [clean].executor": "Run",
+    "Maven.payment [compile].executor": "Run",
+    "Maven.product [clean].executor": "Run",
+    "Maven.product [compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ConfigServerApplication.executor": "Run",
@@ -63,10 +102,17 @@
     "Spring Boot.OrderApplication.executor": "Run",
     "Spring Boot.PaymentApplication.executor": "Run",
     "Spring Boot.ProductApplication.executor": "Run",
+<<<<<<< HEAD
     "git-widget-placeholder": "feature/tsk-api__gateway",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot",
+=======
+    "git-widget-placeholder": "#7 on feature/tsk-api__gateway",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Java/e-commerce-microservice-spring-boot/services/gateway/pom.xml",
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,10 +122,17 @@
     "project.structure.proportion": "0.15629323",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "terminal",
+=======
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.vendetta.ecommerce.kafka.order" />
@@ -106,75 +159,75 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiGateway">
-    <configuration name="ApiGateway" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.gateway.GatewayApplication" />
-      <module name="gateway" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.configserver.ConfigServerApplication" />
       <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.configserver.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer" type="Application" factoryName="Application">
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.discovery.DiscoveryApplication" />
-      <module name="discovery" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ms-Customer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.ecommerce.CustomerApplication" />
       <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.ecommerce.CustomerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ms-Notification" type="Application" factoryName="Application">
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.ecommerce.NotificationApplication" />
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.ecommerce.NotificationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ms-Order" type="Application" factoryName="Application">
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.ecommerce.OrderApplication" />
       <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.ecommerce.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ms-Payment" type="Application" factoryName="Application">
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.ecommerce.PaymentApplication" />
       <module name="payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.ecommerce.PaymentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ms-Product" type="Application" factoryName="Application">
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.vendetta.product.ProductApplication" />
       <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vendetta.product.ProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,6 +289,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.ConfigServer" />
       <item itemvalue="Application.EurekaServer" />
       <item itemvalue="Application.Ms-Customer" />
@@ -248,10 +302,19 @@
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+=======
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
       <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
+<<<<<<< HEAD
+=======
+      <item itemvalue="Spring Boot.GatewayApplication" />
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
     </list>
   </component>
   <component name="SharedIndexes">
@@ -270,9 +333,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727207488463</updated>
+<<<<<<< HEAD
       <workItem from="1727354015482" duration="155000" />
       <workItem from="1727354177559" duration="495000" />
       <workItem from="1727354684133" duration="615000" />
+=======
+      <workItem from="1727309669844" duration="5162000" />
+>>>>>>> acd332058f942685d59aa18a2bbf8b54db3d3b90
     </task>
     <servers />
   </component>
@@ -289,5 +356,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
